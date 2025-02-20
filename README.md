@@ -158,6 +158,3 @@ AIDB/
 For any inquiries or contributions, feel free to reach out!
 
 ---
-
-## ⭐ Acknowledgments
-Special thanks to the **UIUC NLP and AI research community** for insights on approximate query optimization, and to the **Hugging Face** and **PyTorch** teams for open-source model support.
