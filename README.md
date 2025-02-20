@@ -2,7 +2,7 @@
 
 ## 📌 Introduction
 
-With the explosion of unstructured data in modern databases, retrieving meaningful insights efficiently has become a critical challenge. **AIDB (Approximate Intelligence Database)** is designed to integrate **approximate query processing (AQP)** with **machine learning (ML) models**, enabling **fast** and **intelligent** query execution over large-scale datasets. This project implements a prototype system that supports **sentiment analysis on IMDb movie reviews** using both **BERT** and **LSTM** models. 
+With the explosion of unstructured data in modern databases, retrieving meaningful insights efficiently has become a critical challenge. **AIDB (Approximate Intelligence Database)** is designed to integrate **approximate query processing (AQP)** with **machine learning (ML) models**, enabling **fast** and **intelligent** query execution over large-scale datasets. This project implements a prototype system that supports **sentiment analysis on IMDb movie reviews** using both **BERT** and **LSTM** models.
 
 ### Why IMDb Reviews?
 IMDb reviews provide a **rich source of real-world, unstructured textual data**, making them ideal for testing sentiment analysis models. The dataset consists of **positive** and **negative** movie reviews, which allows us to evaluate the effectiveness of **ML-powered query optimization** for sentiment-based retrieval tasks.
@@ -123,6 +123,8 @@ def query_sentiment_approx(sample_ratio=0.1):
 - **BERT achieves the highest accuracy** but is computationally expensive.
 - **LSTM provides a balance** between performance and speed.
 - **Approximate querying significantly reduces execution time**, making real-time analysis feasible.
+- **Confidence intervals help quantify the reliability of approximate queries.**
+- **Further performance tuning** (e.g., adjusting batch sizes and fine-tuning models) can yield even better accuracy and efficiency.
 
 ---
 
@@ -131,6 +133,7 @@ def query_sentiment_approx(sample_ratio=0.1):
 - **Optimize storage and indexing** for faster data retrieval.
 - **Explore hybrid models** that combine CNNs with LSTMs for better generalization.
 - **Scale system with distributed databases** for large-scale deployment.
+- **Investigate additional sampling techniques** to improve accuracy-speed tradeoff.
 
 ---
 
@@ -156,5 +159,3 @@ AIDB/
 **Email:** yan61@illinois.edu  
 
 For any inquiries or contributions, feel free to reach out!
-
----
